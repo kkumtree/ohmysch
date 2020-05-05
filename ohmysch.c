@@ -9,7 +9,7 @@ int main(void)
 	// char *path = "file://home/hycho/.local/bin/cmdo.db";
 	// when using absoulute path, error occured >> not fixed yet
  
-    rc = sqlite3_open("../.local/bin/cmdo.db", &db);
+    rc = sqlite3_open("/home/hycho/.local/bin/cmdo.db", &db);
  
     if(!rc)
 	{
