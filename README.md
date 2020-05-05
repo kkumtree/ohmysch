@@ -1,5 +1,5 @@
 # ohmysch
-trying to make scheduler for zsh-terminal. ramdomly print out such as To-do list.
+trying to make scheduler for zsh-terminal. (ramdomly) print out such as To-do list.
 
 ## dependency
 - SQlite3 required
@@ -9,12 +9,12 @@ trying to make scheduler for zsh-terminal. ramdomly print out such as To-do list
 	- (python 2 required)
 	- pip install cmdo-app 
 
-## Installation
+## installation
 - cd ~
 - git clone git@github.com:kkumtree/ohmysch.git
 - echo "~/ohmysch/ohmysch" >> ~/.zshrc
 
 ## etc
 - If additional function added to .c file, add flag like below when compiling.
-	- gcc -o ohmysch {sourcefiles} -lsqlite3
+	- gcc -o ohmysch o.c -L. -l ft -lsqlite3
 
