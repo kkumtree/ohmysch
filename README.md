@@ -10,9 +10,12 @@ trying to make scheduler for zsh-terminal. (ramdomly) print out such as To-do li
 	- pip install cmdo-app 
 
 ## installation
-- cd ~
-- git clone git@github.com:kkumtree/ohmysch.git
-- echo "~/ohmysch/ohmysch" >> ~/.zshrc
+
+```
+cd ~
+git clone git@github.com:kkumtree/ohmysch.git
+echo "~/ohmysch/ohmysch" >> ~/.zshrc
+```
 
 ## etc
 - If additional function added to .c file, add flag like below when compiling.
