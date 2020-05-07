@@ -27,11 +27,11 @@ int callback(void *NotUsed, int argc, char **argv, char **azColName)
     
     NotUsed = 0;
     
-    for (int i = 0; i < argc; i++) 
+	for (int i = 0; i < argc; i++) 
 	{
-        printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+		printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "");
     }
-    
+
     printf("\n");
     
     return (0);
@@ -77,12 +77,13 @@ int	main(void)
 	
 	if (!rc)
 	{
-		char *sql = "SELECT * FROM todo_list";
+		char *sql = "SELECT ROWID, complete, title, due FROM todo_list";
 		rc = sqlite3_exec(db, sql, callback, 0, &err_msg);
 		if (!rc)
 		{
 			sqlite3_close(db);
 			free(db_path);
+			printf("No schedule. Add schedule by command \"cmdo\"\n");
 			return (0);
 		}
 		else 
