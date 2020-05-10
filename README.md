@@ -3,13 +3,15 @@ trying to make scheduler notification for zsh-terminal.
 Print out To-do list when opening each terminal window.
 
 <div>
-<img width="500" src="https://user-images.githubusercontent.com/52643858/81502262-e8f32080-9317-11ea-9981-82965129c8c8.png">
+<img width="800" src="https://user-images.githubusercontent.com/52643858/81502262-e8f32080-9317-11ea-9981-82965129c8c8.png">
 </div>
 
 ## dependency
 - SQlite3 required
-	- sudo apt-get update 
-	- sudo apt-get install sqlite3 libsqlite3-dev
+	```
+	sudo apt-get update 
+	sudo apt-get install sqlite3 libsqlite3-dev
+	```
 - Github: Kaundur/cmdo required ( https://github.com/Kaundur/cmdo )
 	- (python 2 required)
 	```
