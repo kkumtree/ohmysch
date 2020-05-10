@@ -1,5 +1,10 @@
 # ohmysch
-trying to make scheduler for zsh-terminal. (ramdomly) print out such as To-do list.
+trying to make scheduler notification for zsh-terminal. 
+Print out To-do list when opening each terminal window.
+
+<div>
+<img width="500" src="https://user-images.githubusercontent.com/52643858/81502262-e8f32080-9317-11ea-9981-82965129c8c8.png">
+</div>
 
 ## dependency
 - SQlite3 required
@@ -7,7 +12,9 @@ trying to make scheduler for zsh-terminal. (ramdomly) print out such as To-do li
 	- sudo apt-get install sqlite3 libsqlite3-dev
 - Github: Kaundur/cmdo required ( https://github.com/Kaundur/cmdo )
 	- (python 2 required)
-	- pip install cmdo-app 
+	```
+	pip install cmdo-app 
+	```
 
 ## installation
 
