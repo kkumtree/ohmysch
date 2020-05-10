@@ -6,7 +6,7 @@ Print out To-do list when opening each terminal window.
 <img width="800" src="https://user-images.githubusercontent.com/52643858/81502262-e8f32080-9317-11ea-9981-82965129c8c8.png">
 </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wlqta98CvGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//wlqta98CvGw' frameborder='0' allowfullscreen></iframe></div>
 
 ## dependency
 - SQlite3 required
