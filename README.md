@@ -30,5 +30,7 @@ echo "~/ohmysch/ohmysch" >> ~/.zshrc
 
 ## etc
 - If additional function added to .c file, add flag like below when compiling.
-	- gcc -o ohmysch o.c -L. -l ft -lsqlite3
+	```
+	gcc -o ohmysch ohmysch.c -L. -l ft -lsqlite3
+	```
 
